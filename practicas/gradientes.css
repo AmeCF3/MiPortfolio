@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container_caja {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.caja {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grad1 {
+    background: linear-gradient(red, blue);
+}
+
+.grad2 {
+    background: linear-gradient(to left, rgb(255, 119, 141) 40%, violet 70%, rgb(0, 170, 255) 100%);
+}
+
+.grad3 {
+    background: linear-gradient(to top right, pink 40%, rgb(179, 102, 238) 70%, rgb(64, 255, 0) 100%);
+
+}
+
+.grad4 {
+    background: radial-gradient(orange, green)
+}
+
+.grad5 {
+    background: radial-gradient(circle 120px at top right, orange 30%, yellow 50%, green 100%)
+}
+
+.grad6 {
+    background: repeating-radial-gradient(circle, rgb(255, 173, 173) 20%, rgb(102, 102, 171) 40%, rgb(255, 221, 158) 60%);
+}
+
+.imgbox {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(https://as01.epimg.net/meristation/imagenes/2021/07/02/reportajes/1625238771_202608_1625238808_noticia_normal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grad7{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent 70%, white 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.grad8{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, transparent 80%, white);
+
+}

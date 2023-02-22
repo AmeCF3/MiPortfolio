@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(246, 186, 206);
+}
+
+nav ul {
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: 100vw;
+    width: auto;
+    height: 50px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav li {
+    list-style-type: none;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-inline: 20px;
+}
+
+nav .links:hover {
+    color:rgb(146, 49, 81);
+}
+
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 5px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.fa-house-chimney{
+    color: palevioletred;
+}
+
+
+a .fa-house-chimney:hover{
+    color:rgb(146, 49, 81);
+
+}
+
+.foot {
+    position: absolute;
+    top: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 45%;
+    font-size: 45px;
+}
+
+.deslizador:hover{
+    color: rgb(146, 49, 81);
+
+}
+
+
+
+@media screen and (min-width: 1439px) {
+    nav li {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1438px) {
+ 
+    nav li {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    nav li {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    nav li {
+        font-size: 17px;
+    }
+
+    .index{
+        margin-left: 24px;
+    }
+   
+}
+

@@ -1,0 +1,298 @@
+main {
+    width: 96vw;
+    height: 510px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.material-symbols-outlined {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.divisor {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 5px;
+    padding-right: 10px;
+
+}
+
+.diseñando {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: left;
+}
+
+.division_mision {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.foot {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+
+}
+
+.deslizador:hover {
+    color: rgb(146, 49, 81);
+
+}
+
+
+
+@media screen and (min-width: 1439px) {
+    .description {
+        top: 5vw;
+        left: 50vw;
+        font-size: 25px;
+    }
+
+    .material-symbols-outlined {
+        top: 20px;
+        right: 35px;
+        font-size: 35px;
+    }
+
+    .divisor {
+        margin-top: 25px;
+        margin-left: 1px;
+        padding-right: 10px;
+        width: 1400px;
+    }
+
+    .diseñando {
+        top: 54vh;
+        left: 70vw;
+        width: 360px;
+
+    }
+
+    h3 {
+        left: 4vw;
+        margin-top: 12px;
+        font-size: 35px;
+    }
+
+  
+    .division_mision {
+        margin-left: 3vw;
+        width: 220px;
+    }
+
+    
+    h2 {
+        font-size: 80px;
+        margin-left: 2vw;
+        margin-top: 2vh;
+    }
+
+    .foot {
+        top: 54vw;
+        margin-left: 40vw;
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1438px) {
+
+    .description {
+        top: 75px;
+        left: 600px;
+        font-size: 25px;
+    }
+
+    .material-symbols-outlined {
+        top: 25px;
+        right: 10px;
+        font-size: 35px;
+    }
+
+    .divisor {
+        margin-top: 25px;
+        margin-left: 5px;
+        padding-right: 10px;
+        width: 1250px;
+    }
+
+    .diseñando {
+        top: 45vh;
+        left: 160vh;
+        width: 300px;
+    }
+
+    h3 {
+        left: 4vw;
+        margin-top: 12px;
+        font-size: 27px;
+    }
+
+    .mision {
+        width: 70vw;
+    }
+
+    .division_mision {
+        margin-left: 40px;
+        width: 170px;
+    }
+
+    h2 {
+        font-size: 10vh;
+        margin-left: 6vh;
+        margin-top: 1vh;
+    }
+
+    .foot {
+        top: 500px;
+        margin-left: 45%;
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .description {
+        top: 10vw;
+        left: 30vw;
+        font-size: 20px;
+    }
+
+    .material-symbols-outlined {
+        top: 25px;
+        right: 13px;
+        font-size: 25px;
+    }
+
+    .divisor {
+        margin-top: 25px;
+        margin-left: 1px;
+        padding-right: 10px;
+        width: 730px;
+    }
+
+    .diseñando {
+        top: 54vh;
+        left: 66vw;
+        width: 260px;
+
+    }
+
+    h3 {
+        left: 4vw;
+        margin-top: 12px;
+        font-size: 30px;
+    }
+
+  
+    .division_mision {
+        margin-left: 3vw;
+        width: 180px;
+    }
+
+    
+    h2 {
+        font-size: 7vh;
+        margin-left: 2vw;
+        margin-top: 2vh;
+    }
+
+    .foot {
+        top: 118vw;
+        margin-left: 40vw;
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .description {
+        top: 20vw;
+        left: 8px;
+        font-size: 14px;
+    }
+
+    .material-symbols-outlined {
+        top: 25px;
+        right: 13px;
+        font-size: 25px;
+    }
+
+    .divisor {
+        margin-top: 25px;
+        margin-left: 1px;
+        padding-right: 10px;
+        width: 367px;
+    }
+
+    .diseñando {
+       margin-top: 38vh;
+        left: 7vh;
+        width: 270px;
+
+    }
+
+    h3 {
+        left: 4vw;
+        margin-top: 12px;
+        font-size: 20px;
+    }
+
+    .mision {
+        width: 70vw;
+    }
+
+    .division_mision {
+        margin-left: 2vw;
+        width: 120px;
+    }
+
+    
+    h2 {
+        font-size: 4vh;
+        margin-left: 2vw;
+        margin-top: 2vh;
+    }
+
+    .foot {
+        top: 195vw;
+        margin-left: 26vw;
+        font-size: 45px;
+    }
+}

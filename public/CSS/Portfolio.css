@@ -1,0 +1,89 @@
+main {
+    width: 70vw;
+}
+
+main h1 {
+    color: palevioletred;
+    width: 1250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container_fline {
+    width: 1250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_container {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 90px;
+    margin-top: 20px;
+
+}
+
+.container {
+    width: 520px;
+    height: 330px;
+    border: 1.5px dotted palevioletred;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container .Item1 {
+    margin-top: 20px;
+    box-shadow: 3px 4px 12px 0px rgba(77, 68, 68, 0.75);
+    -webkit-box-shadow: 3px 4px 12px 0px rgba(77, 68, 68, 0.75);
+    -moz-box-shadow: 3px 4px 12px 0px rgba(77, 68, 68, 0.75);
+}
+
+.container h4{
+    color: palevioletred;
+    font-size: 30px;
+}
+
+.container_arrow {
+    width: 1190px;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+}
+
+.fa-arrow-right {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.fa-arrow-right:hover {
+    color: rgb(146, 49, 81);
+}
+
+.fa-arrow-left {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+
+}
+
+.fa-arrow-left:hover {
+    color: rgb(146, 49, 81);
+}
+
+.fa-arrow-right,
+.fa-arrow-left {
+    color: palevioletred;
+
+}

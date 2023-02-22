@@ -1,0 +1,135 @@
+main {
+    width: 100vw;
+    height: 518px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 5rem;
+    left: 12%;
+
+}
+
+p {
+    color: palevioletred;
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+span {
+    border: 1px solid rgb(246, 186, 206);
+}
+
+.contenedor1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenedor2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenedor3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 1439px) {
+
+    .container {
+        flex-direction: row;
+    }
+
+    span {
+        height: 50vw;
+    }
+
+
+    .foot {
+        margin-top: 23vw;
+        margin-left: 44vw;
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1438px) {
+
+    .container {
+        flex-direction: row;
+    }
+
+    span {
+        height: 33vw;
+    }
+
+    .contenedor1 {
+        justify-content: flex-start;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container {
+        flex-direction: row;
+    }
+
+    span {
+        height: 90vw;
+    }
+
+
+    .foot {
+        margin-top: 55vw;
+        margin-left: 40vw;
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    span {
+        height: 0vw;
+        width: 75vw;
+    }
+
+    .contenedor1 {
+        margin-left: 23vw;
+    }
+
+    .contenedor2 {
+        margin-left: 23vw;
+    }
+
+    .contenedor3 {
+        margin-left: 23vw;
+    }
+
+    .foot {
+        margin-top: 55vw;
+        margin-left: 26vw;
+        font-size: 45px;
+    }
+}
