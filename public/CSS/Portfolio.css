@@ -84,40 +84,62 @@ main h1 {
 
 @media screen and (min-width: 1439px) {
 
+    h1{
+        font-size: 60px;
+    }
+
     .container {
-        width: 520px;
-        height: 330px;
+        width: 580px;
+        height: 430px;
     }
 
     .container_container {
-        width: 1100px;
+        width: 1250px;
         flex-direction: row;
     }
 
     .Item2 {
-        width: 490px;
+        width: 550px;
     }
 
     main h1,
     .container_fline {
+        width: 1430px;
+    }
 
-        width: 1250px;
+    .fline {
+        width: 400px;
     }
 
     .container_arrow {
-        width: 1190px;
+        width: 1320px;
     }
 
     .fa-arrow-left {
-        top: 180px;
+        top: 250px;
         left: 20px;
     }
 
     .fa-arrow-right {
         top: 15px;
-        right: 20px;
+        right: 2px;
+    }
+
+    .foot {
+        margin-top: 12vw;
+        margin-left: 45vw;
+        font-size: 45px;
     }
 }
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1024px) and (max-width: 1438px) {
 
@@ -146,12 +168,12 @@ main h1 {
     }
 
     .fa-arrow-left {
-        top: 180px;
+        top: 182px;
         left: 20px;
     }
 
     .fa-arrow-right {
-        top: 15px;
+        top: 1px;
         right: 20px;
     }
 
